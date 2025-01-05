@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(235, 236, 236);
+}
+h1{
+    margin: 20px;
+    text-align: center;
+}
+.para1, .para2, .para3{
+    background-color: rgb(181, 182, 183);
+    margin: 20px;
+    padding: 50px 10px 10px 10px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 1rem;
+    position: relative;
+}
+h2{
+    font-size: 1.5rem;
+    border-style: solid;
+    border-width: 1px;
+    padding: 8px 12px;
+    background-color: rgb(176, 189, 201);
+    position: absolute;
+    top: -1px;
+    right: -1px;
+}
+
+/* medium screen */
+@media (min-width:768px) and (max-width:991px){
+    .breakpoint1{
+        display: flex;
+    }
+    .para1, .para2, .para3{
+        margin: 10px;
+    }
+    .container{
+        margin: 10px;
+    }
+}
+
+
+/* large screen */
+
+@media (min-width:992px) {
+    .breakpoint1{
+        display: flex;
+    }
+    .para1, .para2, .para3{
+        margin: 10px;
+    }
+    .container{
+        margin: 10px;
+        display: flex;
+        /* background-color: ; */
+
+    }
+}
